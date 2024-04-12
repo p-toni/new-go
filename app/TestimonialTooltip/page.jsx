@@ -2,9 +2,9 @@
 
 import React, { useState } from "react";
 import {
-  PiInstagramLogoThin,
-  PiYoutubeLogoThin,
-  PiLinkedinLogoThin,
+  PiInstagramLogoBold,
+  PiYoutubeLogoBold,
+  PiLinkedinLogoBold,
 } from "react-icons/pi";
 import { SlFeed } from "react-icons/sl";
 import { LuBox } from "react-icons/lu";
@@ -46,7 +46,7 @@ function TestimonialTooltip() {
       id: 2,
       name: "Instagram",
       position: "www.feed.com",
-      image: <PiInstagramLogoThin />,
+      image: <PiInstagramLogoBold />,
     },
     {
       id: 3,
@@ -57,14 +57,14 @@ function TestimonialTooltip() {
     {
       id: 4,
       name: "Youtube",
-      position: "www.youtube.com/joscript",
-      image: <PiYoutubeLogoThin />,
+      position: "www.youtube.com/aqqia",
+      image: <PiYoutubeLogoBold />,
     },
     {
       id: 5,
       name: "LinkedIn",
-      position: "www.Linkedin.com/joscript",
-      image: <PiLinkedinLogoThin />,
+      position: "www.Linkedin.com/ptoni",
+      image: <PiLinkedinLogoBold />,
     },
   ];
 

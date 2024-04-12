@@ -28,12 +28,12 @@ function Homepage() {
 
             <div>
               <h1 className="text-2xl font-RubikMedium text-neutral-300">
-                Semicolon,{" "}
-                <span className="text-sm text-neutral-400">A Dev Blog</span>
+                Probably Human,{" "}
+                <span className="text-sm text-neutral-400">Blog</span>
               </h1>
               <p className="max-w-sm text-neutral-400 text-sm">
-                I design and code beautifully simple things, and <br />{" "}
-                occasionally i write about them
+                Just trying to learn, challenge, and maybe make <br />{" "}
+                a little difference. Oh, and sometimes I write about it.
               </p>
             </div>
           </div>
@@ -48,13 +48,13 @@ function Homepage() {
                     width={1000}
                     height={1000}
                     className="w-24 h-24 object-cover rounded-md"
-                    src="/pic.jpg"
+                    src="/scult.jpeg"
                     alt=""
                   />
                   <div>
-                    <span className="text-sm">July 22, 2023</span>
+                    <span className="text-sm">April 11, 2024</span>
                     <h2 className="text-sm font-RubikMedium">
-                      Smooth Animation with React and Framer Motion
+                      How many Why's
                     </h2>
                   </div>
                 </div>
@@ -66,13 +66,13 @@ function Homepage() {
                   height={1000}
                   width={1000}
                   className="w-24 h-24 object-cover rounded-md"
-                  src="/game.jpg"
+                  src="/shark.jpg"
                   alt=""
                 />
                 <div>
                   <span className="text-sm">July 22, 2023</span>
                   <h2 className="text-sm font-RubikMedium">
-                    Smooth Animation with React and Framer Motion
+                    Agile is both more and less than you think.
                   </h2>
                 </div>
               </div>
@@ -89,7 +89,7 @@ function Homepage() {
                 <div>
                   <span className="text-sm">July 22, 2023</span>
                   <h2 className="text-sm font-RubikMedium">
-                    Smooth Animation with React and Framer Motion
+                    LLMS Productivity Research.
                   </h2>
                 </div>
               </div>
@@ -98,13 +98,13 @@ function Homepage() {
 
           {/* without image */}
 
-          <div className="mt-6  bg-[#1C1C1C] rounded-lg text-neutral-400">
+          {/* <div className="mt-6  bg-[#1C1C1C] rounded-lg text-neutral-400">
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
               <div className="  flex items-center gap-x-3">
                 <div>
                   <span className="text-sm">July 22, 2023</span>
                   <h2 className="text-sm font-RubikMedium">
-                    Smooth Animation with React and Framer Motion
+                    When I was featured in a local newspaper due to Pegueeei startup
                   </h2>
                 </div>
               </div>
@@ -129,7 +129,7 @@ function Homepage() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* With image */}
 
@@ -140,13 +140,13 @@ function Homepage() {
                   height={1000}
                   width={1000}
                   className="w-24 h-24 object-cover rounded-md"
-                  src="/pic.jpg"
+                  src="/convell.jpg"
                   alt=""
                 />
                 <div>
-                  <span className="text-sm">July 22, 2023</span>
+                  <span className="text-sm">2023</span>
                   <h2 className="text-sm font-RubikMedium">
-                    Smooth Animation with React and Framer Motion
+                    This was so much fun!
                   </h2>
                 </div>
               </div>
@@ -157,13 +157,13 @@ function Homepage() {
                   height={1000}
                   width={1000}
                   className="w-24 h-24 object-cover rounded-md"
-                  src="/pic.jpg"
+                  src="/lascar.jpg"
                   alt=""
                 />
                 <div>
-                  <span className="text-sm">July 22, 2023</span>
+                  <span className="text-sm">2019</span>
                   <h2 className="text-sm font-RubikMedium">
-                    Smooth Animation with React and Framer Motion
+                    Right before climbing the Lascar Volvano in Chile
                   </h2>
                 </div>
               </div>
@@ -174,13 +174,13 @@ function Homepage() {
                   height={1000}
                   width={1000}
                   className="w-24 h-24 object-cover rounded-md"
-                  src="/pic.jpg"
+                  src="/estadao.jpg"
                   alt=""
                 />
                 <div>
-                  <span className="text-sm">July 22, 2023</span>
+                  <span className="text-sm">2017</span>
                   <h2 className="text-sm font-RubikMedium">
-                    Smooth Animation with React and Framer Motion
+                    Featured in a local newspaper because of my startup Pegueeei.
                   </h2>
                 </div>
               </div>
@@ -189,7 +189,7 @@ function Homepage() {
 
           {/* without image */}
 
-          <div className="mt-6  bg-[#1C1C1C] rounded-lg text-neutral-400">
+          {/* <div className="mt-6  bg-[#1C1C1C] rounded-lg text-neutral-400">
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
               <div className="  flex items-center gap-x-3">
                 <div>
@@ -206,7 +206,7 @@ function Homepage() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </motion.div>
