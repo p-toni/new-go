@@ -8,7 +8,6 @@ import {
   PiShapesThin,
   PiHouseLight,
 } from "react-icons/pi";
-import { SiAdobe } from "react-icons/si";
 
 import { motion, useAnimation } from "framer-motion";
 import Link from "next/link";
@@ -31,7 +30,7 @@ function Leftpage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (isValidEmail(email)) {
+    if (email && isValidEmail(email)) {
       setEmail("");
     } else {
       controls.start({
@@ -115,10 +114,9 @@ function Leftpage() {
                 </div>
               </Link>
 
-              <div className="bg-neutral-700/50 h-7 w-7 rounded-full flex items-center justify-center">
-                <Link href={"/"}>
-                  <PiRadioButtonFill className="text-neutral-100" />
-                </Link>
+              <div
+                className="bg-neutral-700/50 h-7 w-7 rounded-full flex items-center justify-center">
+                <PiRadioButtonFill className="text-neutral-100" />
               </div>
             </div>
           </div>
