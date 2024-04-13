@@ -88,9 +88,9 @@ function page() {
             alt=""
           />
           <p className="my-3 font-RubikMedium text-sm">I'm having fun</p>
-          <button className="bg-[#696969] h-7 p-1 rounded-md text-xs w-full font-RubikMedium ">
+          {/* <button className="bg-[#696969] h-7 p-1 rounded-md text-xs w-full font-RubikMedium ">
             Get Now @20% OFF
-          </button>
+          </button> */}
         </div>
       </div>
     </motion.div>

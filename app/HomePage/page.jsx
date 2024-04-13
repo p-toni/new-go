@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { PiCodeThin } from "react-icons/pi";
+import { PiFingerprintThin } from "react-icons/pi";
 import { motion, useAnimation } from "framer-motion";
 import Image from "next/image";
 
@@ -24,7 +24,7 @@ function Homepage() {
       <div className="  bg-[#1C1C1C] lg:bg-transparent rounded-2xl ">
         <div>
           <div className="flex gap-x-6 p-4">
-            <PiCodeThin className="text-6xl text-neutral-50" />
+            <PiFingerprintThin className="text-6xl text-neutral-50" />
 
             <div>
               <h1 className="text-2xl font-RubikMedium text-neutral-300">
@@ -41,36 +41,34 @@ function Homepage() {
           <div className="border border-neutral-700 my-5" />
 
           <div className="  bg-[#1C1C1C] rounded-lg text-neutral-400">
-            <Link href={"/dashboard/djdj"}>
-              <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-                <div className="  flex items-center gap-x-3">
-                  <Image
-                    width={1000}
-                    height={1000}
-                    className="w-24 h-24 object-cover rounded-md"
-                    src="/scult.jpeg"
-                    alt=""
-                  />
-                  <div>
-                    <span className="text-sm">April 11, 2024</span>
-                    <h2 className="text-sm font-RubikMedium">
-                      How many Why's
-                    </h2>
-                  </div>
+            <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
+              <div className="  flex items-center gap-x-3">
+                <Image
+                  width={1000}
+                  height={1000}
+                  className="w-24 h-24 object-cover rounded-md"
+                  src="/soon.jpeg"
+                  alt=""
+                />
+                <div>
+                  <span className="text-sm">TBD</span>
+                  <h2 className="text-sm font-RubikMedium">
+                    How many Why's
+                  </h2>
                 </div>
               </div>
-            </Link>
+            </div>
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
               <div className="  flex items-center gap-x-3">
                 <Image
                   height={1000}
                   width={1000}
                   className="w-24 h-24 object-cover rounded-md"
-                  src="/shark.jpg"
+                  src="/soon.jpeg"
                   alt=""
                 />
                 <div>
-                  <span className="text-sm">July 22, 2023</span>
+                  <span className="text-sm">TBD</span>
                   <h2 className="text-sm font-RubikMedium">
                     Agile is both more and less than you think.
                   </h2>
@@ -83,11 +81,11 @@ function Homepage() {
                   height={1000}
                   width={1000}
                   className="w-24 h-24 object-cover rounded-md"
-                  src="/scult.jpeg"
+                  src="/soon.jpeg"
                   alt=""
                 />
                 <div>
-                  <span className="text-sm">July 22, 2023</span>
+                  <span className="text-sm">TBD</span>
                   <h2 className="text-sm font-RubikMedium">
                     LLMS Productivity Research.
                   </h2>
@@ -140,13 +138,13 @@ function Homepage() {
                   height={1000}
                   width={1000}
                   className="w-24 h-24 object-cover rounded-md"
-                  src="/convell.jpg"
+                  src="/eddie.jpeg"
                   alt=""
                 />
                 <div>
-                  <span className="text-sm">2023</span>
+                  <span className="text-sm">2021</span>
                   <h2 className="text-sm font-RubikMedium">
-                    This was so much fun!
+                    Our little Eddie 🐶
                   </h2>
                 </div>
               </div>

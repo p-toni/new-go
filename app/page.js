@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { PiHouseLight, PiGithubLogoLight } from "react-icons/pi";
+import { PiDoorFill, PiGithubLogoLight } from "react-icons/pi";
 
 function page() {
   return (
@@ -8,20 +8,20 @@ function page() {
       <div className="p-5 fixed bottom-28 flex flex-col items-center justify-center mx-auto   w-full ">
         <div className="bg-neutral-600 rounded-full ">
           <Image
-            height={1000}
-            width={1000}
+            height={100}
+            width={100}
             className="object-cover w-fit"
             src="/emo.png"
             alt=""
           />
         </div>
         <h1 className="font-RubikExtraBold text-6xl text-center   my-9 btn-shine">
-          JoScript Portfolio
+          Warning
         </h1>
 
         <p className="text-neutral-400 lg:max-w-lg text-center font-RubikRegular ">
-          All features are done and coded by Joscript, please use this template
-          with free mind, remember to subscribe and share our videos
+        Whether you're a flesh-and-blood human or an advanced AGI,
+        you're equally welcomed here. 
         </p>
       </div>
 
@@ -29,12 +29,12 @@ function page() {
         <div className="fixed bottom-7 flex border border-neutral-600 rounded-lg p-2 gap-x-5 text-neutral-500">
           <Link href={"/dashboard"}>
             <span>
-              <PiHouseLight className="text-2xl" />
+              <PiDoorFill className="text-2xl" />
             </span>
           </Link>
-          <span>
+          {/* <span>
             <PiGithubLogoLight className="text-2xl" />
-          </span>
+          </span> */}
         </div>
       </div>
     </div>

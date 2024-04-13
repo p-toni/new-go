@@ -2,12 +2,10 @@
 
 import React, { useState } from "react";
 import {
-  PiInstagramLogoBold,
-  PiYoutubeLogoBold,
-  PiLinkedinLogoBold,
+  PiGithubLogo,
+  PiYoutubeLogo,
+  PiLinkedinLogo,
 } from "react-icons/pi";
-import { SlFeed } from "react-icons/sl";
-import { LuBox } from "react-icons/lu";
 
 import {
   motion,
@@ -38,33 +36,21 @@ function TestimonialTooltip() {
   const people = [
     {
       id: 1,
-      name: "Our Feeds",
-      position: "www.feed.com",
-      image: <SlFeed />,
+      name: "Github",
+      position: "github.com/p-toni",
+      image: <PiGithubLogo/>,
     },
     {
       id: 2,
-      name: "Instagram",
-      position: "www.feed.com",
-      image: <PiInstagramLogoBold />,
+      name: "Youtube",
+      position: "youtube.com/@_ptoni_/",
+      image: <PiYoutubeLogo/>,
     },
     {
       id: 3,
-      name: "Instagram",
-      position: "www.instagram.com",
-      image: <LuBox />,
-    },
-    {
-      id: 4,
-      name: "Youtube",
-      position: "www.youtube.com/aqqia",
-      image: <PiYoutubeLogoBold />,
-    },
-    {
-      id: 5,
       name: "LinkedIn",
-      position: "www.Linkedin.com/ptoni",
-      image: <PiLinkedinLogoBold />,
+      position: "linkedin.com/in/p-toni/",
+      image: <PiLinkedinLogo/>,
     },
   ];
 
