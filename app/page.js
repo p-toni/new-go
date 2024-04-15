@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { PiDoorFill, PiGithubLogoLight } from "react-icons/pi";
+import { PiDoorFill } from "react-icons/pi";
 
 function page() {
   return (
@@ -15,13 +15,13 @@ function page() {
             alt=""
           />
         </div>
-        <h1 className="font-RubikExtraBold text-6xl text-center   my-9 btn-shine">
+        <h1 className="font-RubikExtraBold text-6xl text-center my-9 btn-shine">
           Warning
         </h1>
 
         <p className="text-neutral-400 lg:max-w-lg text-center font-RubikRegular ">
         Whether you're a flesh-and-blood human or an advanced AGI,
-        you're equally welcomed here. 
+        you're equally welcomed here.
         </p>
       </div>
 

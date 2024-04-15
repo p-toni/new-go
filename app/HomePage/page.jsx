@@ -1,9 +1,11 @@
 "use client";
 import Link from "next/link";
 import React from "react";
+import Lottie from "lottie-react";
 import { PiFingerprintThin } from "react-icons/pi";
 import { motion, useAnimation } from "framer-motion";
 import Image from "next/image";
+import loadingAnimation from "../../public/loading.json";
 
 function Homepage() {
   return (
@@ -43,13 +45,7 @@ function Homepage() {
           <div className="  bg-[#1C1C1C] rounded-lg text-neutral-400">
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
               <div className="  flex items-center gap-x-3">
-                <Image
-                  width={1000}
-                  height={1000}
-                  className="w-24 h-24 object-cover rounded-md"
-                  src="/soon.jpeg"
-                  alt=""
-                />
+                <Lottie animationData={loadingAnimation} loop={false} className="w-24 h-24 object-cover rounded-md"/>
                 <div>
                   <span className="text-sm">TBD</span>
                   <h2 className="text-sm font-RubikMedium">
@@ -60,13 +56,7 @@ function Homepage() {
             </div>
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
               <div className="  flex items-center gap-x-3">
-                <Image
-                  height={1000}
-                  width={1000}
-                  className="w-24 h-24 object-cover rounded-md"
-                  src="/soon.jpeg"
-                  alt=""
-                />
+                <Lottie animationData={loadingAnimation} loop={false} className="w-24 h-24 object-cover rounded-md"/>
                 <div>
                   <span className="text-sm">TBD</span>
                   <h2 className="text-sm font-RubikMedium">
@@ -77,13 +67,7 @@ function Homepage() {
             </div>
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
               <div className="  flex items-center gap-x-3">
-                <Image
-                  height={1000}
-                  width={1000}
-                  className="w-24 h-24 object-cover rounded-md"
-                  src="/soon.jpeg"
-                  alt=""
-                />
+                <Lottie animationData={loadingAnimation} loop={false} className="w-24 h-24 object-cover rounded-md"/>
                 <div>
                   <span className="text-sm">TBD</span>
                   <h2 className="text-sm font-RubikMedium">
